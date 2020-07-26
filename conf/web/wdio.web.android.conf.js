@@ -17,11 +17,11 @@ config.appium = {
 };
 config.capabilities = [
   {
-    appiumVersion: '1.16.0',
+    appiumVersion: '1.17.1',
     browserName: 'chrome',
-    platformName: 'Android',
-    platformVersion: '8.1',
-    deviceName: 'emulator-5554',
+    platformName: 'Android', //yes
+    platformVersion: '10.0',
+    deviceName: 'Samsung Galaxy Note 9 API R',  //yes
     waitforTimeout: 30000,
     commandTimeout: 30000,
     newCommandTimeout: 30000,
