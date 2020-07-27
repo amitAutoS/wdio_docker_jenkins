@@ -17,8 +17,8 @@ exports.config = {
     connectionRetryTimeout: 90000,
     connectionRetryCount: 1,
     services: [
-        'chromedriver',
-        'selenium-standalone'
+        'chromedriver'
+        // 'selenium-standalone'
     ],
     framework: 'mocha',
     reporters: ['spec', ['allure', {outputDir: 'allure-results'}]],
