@@ -15,7 +15,7 @@ exports.config = {
     baseUrl: 'http://automationpractice.com',
     waitforTimeout: 10000,
     connectionRetryTimeout: 90000,
-    connectionRetryCount: 3,
+    connectionRetryCount: 1,
     services: [
         'chromedriver',
         'selenium-standalone'
