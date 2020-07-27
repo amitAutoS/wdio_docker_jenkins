@@ -1,7 +1,5 @@
 exports.config = {
     // runner: 'local',
-    hostname: 'selenium-standalone',
-    port: 4444,
     path: '/wd/hub',
     maxInstances: 1,
     capabilities: [{
