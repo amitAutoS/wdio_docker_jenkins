@@ -6,6 +6,8 @@
   "scripts": {
     "report": "./node_modules/allure-commandline/bin/allure generate allure-results --clean -o allure-report && ./node_modules/allure-commandline/bin/allure open allure-report",
     "test": "./node_modules/.bin/wdio ./conf/web/wdio.web.conf.js",
+    "selenium-install": "./node_modules/.bin/selenium-standalone install",
+    "selenium-start": "./node_modules/.bin/selenium-standalone start",
     "android": "./node_modules/.bin/wdio ./conf/mobile/wdio.android.conf.js",
     "ios": "./node_modules/.bin/wdio ./conf/mobile/wdio.ios.conf.js",
     "web:chrome": "./node_modules/.bin/wdio ./conf/web/wdio.web.visual.conf.js",
